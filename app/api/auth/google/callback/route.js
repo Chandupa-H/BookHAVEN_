@@ -58,7 +58,7 @@ export async function GET(req) {
 
     // Redirect to frontend with token (customize as needed)
     return Response.redirect(
-      `https://book-haven-2x4s.vercel.app/auth/success?token=${token}`
+      `https://book-haven-mocha.vercel.app/auth/success?token=${token}`
     );
   } catch (err) {
     return new Response(
